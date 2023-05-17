@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/parent_group">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="।। श्री गणेशाय नम:"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/start_txt"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gbname"
+        android:hint="वर / वधु का नाम "
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_below="@+id/start_txt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gbpname"
+        android:hint="पिता का नाम "
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_below="@+id/gbname"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/genderrg"
+                    android:orientation="horizontal"
+                    android:layout_below="@+id/gbpname">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbmale"
+                    android:text="वर"
+                    android:layout_marginStart="10dp"
+                    android:textSize="22sp"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:layout_weight="1"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rbfmale"
+                    android:text="वधु"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="22sp"
+                    android:textColor="@android:color/holo_orange_dark"
+                    android:layout_weight="1"/>
+
+                </RadioGroup>
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gbgotra"
+        android:hint="गोत्र "
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_below="@+id/genderrg"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gbdob"
+        android:hint="जन्‍म तिथि DD-MM-YYYY "
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_below="@+id/gbgotra"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gbheight"
+        android:hint="ऊंचाई"
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_below="@+id/gbdob"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gbcolor"
+        android:hint="रंग"
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_below="@+id/gbheight"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gbedu"
+        android:hint="शिक्षा "
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_below="@+id/gbcolor"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gbjob"
+        android:hint="व्‍यवसाय"
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_below="@+id/gbedu"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gbhobby"
+        android:hint="रूचि के विषय"
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_below="@+id/gbjob"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gbmail"
+                android:hint="ई-मेल"
+                android:textSize="22sp"
+                android:padding="8dp"
+                android:layout_marginStart="8dp"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textColorHint="@android:color/holo_orange_dark"
+                android:layout_below="@+id/gbhobby"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gbphone"
+                android:hint="मोबाईल नंबर"
+                android:textSize="22sp"
+                android:padding="8dp"
+                android:layout_marginStart="8dp"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textColorHint="@android:color/holo_orange_dark"
+                android:layout_below="@+id/gbmail"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gbaddr"
+        android:hint="स्‍थायी पता"
+        android:textSize="22sp"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:layout_below="@+id/gbphone"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_details"
+                android:text="जानकारी जोडें"
+                android:layout_below="@id/gbaddr"
+                android:layout_margin="8dp"
+                android:textSize="22sp"
+                android:backgroundTint="@android:color/holo_orange_dark"/>
+        
+
+</RelativeLayout>
+    </ScrollView>
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        android:id="@+id/adView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        ads:adSize="BANNER"-->
+<!--        ads:adUnitId="ca-app-pub-8015685894800203/5860054851">-->
+<!--    </com.google.android.gms.ads.AdView>-->
+
+
+</RelativeLayout>

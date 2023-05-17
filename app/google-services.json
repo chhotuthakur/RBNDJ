@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "540215091505",
+    "firebase_url": "https://match-making-234ad.firebaseio.com",
+    "project_id": "match-making-234ad",
+    "storage_bucket": "match-making-234ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540215091505:android:f73b16982a4fe01ac5d010",
+        "android_client_info": {
+          "package_name": "com.colivine.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540215091505-1ghrq7igsgd31k4ghhfi307skqigardh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX7IEAPeMX94p-RBtvqI7FFluxwFGVbpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540215091505-1ghrq7igsgd31k4ghhfi307skqigardh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540215091505:android:b015d10c49732304c5d010",
+        "android_client_info": {
+          "package_name": "com.jawa.vaidikpandit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540215091505-1ghrq7igsgd31k4ghhfi307skqigardh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX7IEAPeMX94p-RBtvqI7FFluxwFGVbpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540215091505-1ghrq7igsgd31k4ghhfi307skqigardh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540215091505:android:ae5f9faebbacb4d8c5d010",
+        "android_client_info": {
+          "package_name": "com.nilesh.rbndj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540215091505-1ghrq7igsgd31k4ghhfi307skqigardh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX7IEAPeMX94p-RBtvqI7FFluxwFGVbpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540215091505-1ghrq7igsgd31k4ghhfi307skqigardh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
