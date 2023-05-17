@@ -128,9 +128,9 @@ public class MainActivity extends AppCompatActivity {
                 mDatabase.addChildEventListener(new ChildEventListener() {
                     @Override
                     public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                        if (snapshot.hasChild("message")){
-                            clearForm();
-                        }
+//                        if (snapshot.hasChild("message")){
+//                            clearForm();
+//                        }
                     }
 
                     @Override
@@ -163,17 +163,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public  void  clearForm() {
+//    public  void  clearForm() {
+//
+//        ViewGroup group = (ViewGroup) findViewById(R.id.parent_group);
+//        for (int i = 0, count = group.getChildCount(); i < count; ++i) {
+//            View view = group.getChildAt(i);
+//            if (view instanceof EditText) {
+//                ((EditText) view).setText(null);
+//            }
+//        }
 
-        ViewGroup group = (ViewGroup) findViewById(R.id.parent_group);
-        for (int i = 0, count = group.getChildCount(); i < count; ++i) {
-            View view = group.getChildAt(i);
-            if (view instanceof EditText) {
-                ((EditText) view).setText(null);
-            }
-        }
 
-    }
 
 
 }

@@ -13,7 +13,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/parent_group">
 
     <TextView
@@ -49,7 +49,7 @@
         android:layout_marginStart="8dp"
         android:textColor="@android:color/holo_orange_dark"
         android:textColorHint="@android:color/holo_orange_dark"
-        android:layout_below="@+id/gbname"/>
+        android:layout_below="@+id/gbname" />
 
                 <RadioGroup
                     android:layout_width="match_parent"
